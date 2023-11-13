@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Clicker",
+			"Path": "..\\Source\\Clicker.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "ClickerEditor",
+			"Path": "..\\Source\\ClickerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

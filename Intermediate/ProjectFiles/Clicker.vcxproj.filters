@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Clicker.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Clicker.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ClickerEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Clicker">
+      <UniqueIdentifier>{9B12F9CD-D225-304C-AD64-AB1CE08086EF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Clicker\Clicker.Build.cs">
+      <Filter>Source\Clicker</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Clicker\Clicker.cpp">
+      <Filter>Source\Clicker</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Clicker\Clicker.h">
+      <Filter>Source\Clicker</Filter>
+    </ClInclude>
+    <Filter Include="Source\Clicker\Player">
+      <UniqueIdentifier>{A02A0100-3872-3286-9403-4CF03B528B09}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Clicker\Player\PlayerPawn.cpp">
+      <Filter>Source\Clicker\Player</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Clicker\Player\PlayerPawn.h">
+      <Filter>Source\Clicker\Player</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
